@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  background: black;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+body {
+  font-weight: 400;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 30px;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  border: none;
+  background: #1a2421;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-size: 25px;
+  color: rgb(104, 229, 104);
+  border-radius: 10px;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+h1 {
+  font-size: 30px;
+  text-align: center;
+}
+
+h4 {
+  font-size: 25px;
+  text-align: center;
+}
+
+textarea {
+  border: 3px solid black;
+  width: 50%;
+  margin: 0 auto;
+  outline: none;
+  height: 200px;
+  background: #1a2421;
+  padding: 10px;
+}
+
+textarea:disabled {
+  background-color: #a5a2a2;
+}
