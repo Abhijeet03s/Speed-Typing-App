@@ -58,6 +58,7 @@ textarea {
   height: 200px;
   background: #1a2421;
   padding: 10px;
+  font-size: 25px;
 }
 
 textarea:disabled {
